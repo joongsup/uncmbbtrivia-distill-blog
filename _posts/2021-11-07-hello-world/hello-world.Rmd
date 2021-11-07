@@ -1,0 +1,33 @@
+---
+title: "Hello World!"
+description: |
+  New blog using distill!
+author:
+  - name: Jay Lee
+date: 2021-11-07
+date_prefix: TRUE # adds date for sorting
+draft: FALSE
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Trying [Distill](https://rstudio.github.io/distill) as a new blogging backend, replacing blogdown/hugo. I don't really need all the customization from blogdown/theme, and don't really want to deal w/ (breaking) changes from hugo. Reference [here](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/).
+
+```{r, plot-test}
+head(mtcars)
+plot(mtcars)
+
+```
+
+Notables so far:
+
+- really like the simplicity...can truly focus on creating posts
+- no addin for new post, but I'm guessing there will be one if I look harder
+  - new post by create_post()
+- seems to need to knit each post before it showing as a post

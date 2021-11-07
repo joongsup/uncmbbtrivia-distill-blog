@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-11-07-hello-world/",
+    "title": "Hello World!",
+    "description": "New blog using distill!",
+    "author": [
+      {
+        "name": "Jay Lee",
+        "url": {}
+      }
+    ],
+    "date": "2021-11-07",
+    "categories": [],
+    "contents": "\nTrying Distill as a new blogging backend, replacing blogdown/hugo. I don’t really need all the customization from blogdown/theme, and don’t really want to deal w/ (breaking) changes from hugo. Reference here.\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\nNotables\nreally like the simplicity…can truly focus on creating posts\nno addin for new post, but I’m guessing there will be one if I look harder\nnew post by create_post()\n\nseems to need to knit each post before it showing as a post\n\n\n\n",
+    "preview": "posts/2021-11-07-hello-world/hello-world_files/figure-html5/plot-test-1.png",
+    "last_modified": "2021-11-07T02:33:55-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Jay's Notes",
+    "description": "Welcome to our new blog, Jay's Notes. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-11-07",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-11-07T01:58:54-05:00",
+    "input_file": {}
+  }
+]

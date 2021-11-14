@@ -1,7 +1,7 @@
 ---
 title: "Hello World!"
 description: |
-  New blog using distill!
+  New blog using Distill!
 author:
   - name: Jay Lee
 date: 2021-11-07
@@ -17,7 +17,10 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Trying [Distill](https://rstudio.github.io/distill) as a new blogging backend, replacing blogdown/hugo. I don't really need all the customization from blogdown/theme, and don't really want to deal w/ (breaking) changes from hugo. Reference [here](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/).
+Trying [Distill](https://rstudio.github.io/distill) as a new blogging backend, replacing blogdown/hugo. I don't really need all the customization from blogdown/theme, and don't really want to deal w/ dependencies. From RStudio [post](https://www.rstudio.com/blog/distill/):
+
+>> Importantly, Distill websites are built without any kind of static site generator (like Jekyll or Hugo), which means that Distill websites offer users the bliss of building a website without any additional software dependencies (this means, all you need is R and the distill package to make it work).
+
 
 ```{r, plot-test}
 head(mtcars)
@@ -25,9 +28,12 @@ plot(mtcars)
 
 ```
 
-Notables so far:
+Notables so far ([reference](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/).
+):
 
 - really like the simplicity...can truly focus on creating posts
 - no addin for new post, but I'm guessing there will be one if I look harder
   - new post by create_post()
 - seems to need to knit each post before it showing as a post
+- had to re-create github PAT
+- had to update gh package (kept getting complaint about newly created PAT)

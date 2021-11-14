@@ -2,7 +2,7 @@ name: "uncmbbtrivia-distill-blog"
 title: "Jay's Notes"
 description: |
   Jay's Notes
-output_dir: "_site"
+output_dir: "."
 navbar:
   right:
     - text: "Home"

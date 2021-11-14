@@ -15,22 +15,5 @@
     "preview": "posts/2021-11-07-hello-world/hello-world_files/figure-html5/plot-test-1.png",
     "last_modified": "2021-11-13T11:06:37-05:00",
     "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "Welcome to Jay's Notes",
-    "description": "Welcome to our new blog, Jay's Notes. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2021-11-07",
-    "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-11-07T01:58:54-05:00",
-    "input_file": {}
   }
 ]
